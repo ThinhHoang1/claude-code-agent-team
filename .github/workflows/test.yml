@@ -1,0 +1,22 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure jq
+        run: command -v jq || (sudo apt-get update && sudo apt-get install -y jq)
+      - name: Run tests
+        run: tests/run.sh
+      - name: Run tests with the system bash 3.2
+        if: runner.os == 'macOS'
+        run: tests/run.sh /bin/bash

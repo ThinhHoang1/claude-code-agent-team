@@ -1,0 +1,1 @@
+{"session_id":"s-0001","transcript_path":"__DIR__/projects/demo/s-0001.jsonl","cwd":"__DIR__/repo","hook_event_name":"TaskCreated","task_id":"9","task_subject":"Fix the login bug","task_description":"Users report the login button does nothing. Done when it works.","teammate_name":"developer"}

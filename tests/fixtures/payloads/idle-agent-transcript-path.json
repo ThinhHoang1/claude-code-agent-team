@@ -1,0 +1,1 @@
+{"session_id":"lead","transcript_path":"__DIR__/projects/demo/lead.jsonl","agent_transcript_path":"__DIR__/projects/demo/lead/subagents/agent-aqa-0001.jsonl","cwd":"__DIR__/repo","hook_event_name":"TeammateIdle","teammate_name":"someone-else"}

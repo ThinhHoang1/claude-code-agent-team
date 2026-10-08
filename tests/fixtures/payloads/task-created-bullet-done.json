@@ -1,0 +1,1 @@
+{"session_id":"s-0001","transcript_path":"__DIR__/projects/demo/s-0001.jsonl","cwd":"__DIR__/repo","hook_event_name":"TaskCreated","task_id":"8","task_subject":"Review the cache design","task_description":"### HANDOFF\n- FROM: tech-lead\n- TO: architect\n- TASK: review the cache design\n- DONE: verdict posted with a 1x/10x/100x table\n- BLOCKING: no"}

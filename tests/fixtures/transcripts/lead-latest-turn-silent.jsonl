@@ -1,0 +1,4 @@
+{"type":"user","uuid":"l-001","message":{"role":"user","content":"Ship the checkout retry feature with the team."}}
+{"type":"assistant","uuid":"l-002","message":{"role":"assistant","content":[{"type":"tool_use","id":"lt-1","name":"Agent","input":{"name":"qa","subagent_type":"qa","prompt":"### HANDOFF ..."}}]}}
+{"type":"user","uuid":"l-003","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"lt-1","content":"Spawned qa"}]}}
+{"type":"assistant","uuid":"l-006","message":{"role":"assistant","content":[{"type":"text","text":"Waiting for qa."}]}}

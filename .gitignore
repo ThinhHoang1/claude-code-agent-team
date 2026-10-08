@@ -1,0 +1,3 @@
+# per-machine Claude Code settings and hook state
+.claude/settings.local.json
+.claude/hooks/.state/

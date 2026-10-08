@@ -1,0 +1,9 @@
+{"type":"user","uuid":"u-100","timestamp":"2026-01-01T10:00:00Z","message":{"role":"user","content":"<teammate-message teammate_id=\"team-lead\">Run the checkout E2E case and report back.</teammate-message>"}}
+{"type":"attachment","uuid":"x-100","attachment":{"type":"environment"}}
+{"type":"assistant","uuid":"a-100","message":{"role":"assistant","content":[{"type":"thinking","thinking":"plan the run"}]}}
+{"type":"assistant","uuid":"a-101","message":{"role":"assistant","content":[{"type":"tool_use","id":"tu-101","name":"Bash","input":{"command":"npm test"}}]}}
+{"type":"user","uuid":"u-101","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-101","content":"42 passing"}]}}
+{"type":"attachment","uuid":"x-101","attachment":{"type":"total_tokens_reminder"}}
+{"type":"assistant","uuid":"a-102","message":{"role":"assistant","content":[{"type":"tool_use","id":"tu-102","name":"SendMessage","input":{"to":"team-lead","message":"## Conclusion\nPASS"}}]}}
+{"type":"user","uuid":"u-102","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-102","content":"Message sent"}]}}
+{"type":"assistant","uuid":"a-103","message":{"role":"assistant","content":[{"type":"text","text":"Done; reported to the lead."}]}}

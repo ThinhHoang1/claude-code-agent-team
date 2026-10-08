@@ -1,0 +1,8 @@
+{"type":"user","uuid":"u-100","timestamp":"2026-01-01T10:00:00Z","message":{"role":"user","content":"<teammate-message teammate_id=\"team-lead\">Run the checkout E2E case and report back.</teammate-message>"}}
+{"type":"assistant","uuid":"a-101","message":{"role":"assistant","content":[{"type":"tool_use","id":"tu-101","name":"Bash","input":{"command":"npm test"}}]}}
+{"type":"assistant","message":{"role":"assist
+{"type":"user","uuid":"u-101","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-101","content":"42 passing"}]}}
+not json at all
+{"type":"assistant","uuid":"a-102","message":{"role":"assistant","content":[{"type":"tool_use","id":"tu-102","name":"SendMessage","input":{"to":"team-lead","message":"## Conclusion\nPASS"}}]}}
+{"type":"user","uuid":"u-102","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu-102","content":"Message sent"}]}}
+{"type":"assistant","uuid":"a-999","message":{"role":"assis

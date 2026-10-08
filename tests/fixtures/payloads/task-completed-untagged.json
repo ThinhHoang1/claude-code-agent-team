@@ -1,0 +1,1 @@
+{"session_id":"s-0001","transcript_path":"__DIR__/projects/demo/s-0001.jsonl","cwd":"__DIR__/repo","hook_event_name":"TaskCompleted","task_id":"22","task_subject":"Write the migration","task_description":"DONE: migration applies on a copy of the staging dump"}
